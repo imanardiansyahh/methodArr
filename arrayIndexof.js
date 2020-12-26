@@ -1,3 +1,4 @@
 var family = ['shane', 'Sally', 'Isaac', 'Kittie'];
 
-console.log(family.indexOf('Kittie'))
+console.log(family.indexOf('Kittie')) > -1
+
