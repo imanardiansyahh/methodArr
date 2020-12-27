@@ -16,7 +16,7 @@ var event = [
 ]
 
 
-var filtered = events.filter(event => {
+var filtered = event.filter(event => {
     var ext = require('path').extname(event.file)
     return whitelist.indexOf(ext) > -1
 })
